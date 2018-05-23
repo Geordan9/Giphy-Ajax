@@ -1,0 +1,23 @@
+body {
+    margin: 0 5px;
+}
+
+#topics-header {
+    margin-bottom: 10px;
+}
+
+#image-location>div>img {
+    margin: 4px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#tempImage {
+    position: fixed;
+    width: 80%;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
